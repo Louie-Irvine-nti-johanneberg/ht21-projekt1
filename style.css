@@ -1,0 +1,30 @@
+.wrapper{
+    display: grid;
+    grid-template-areas:
+    'hd'
+    'ch'
+    'mn'
+    'ft';
+    grid-template-rows: 20rem 20rem 20rem 20rem;
+
+}
+#chinese{
+    background-image: url(./Bilder/CopyofSoonFungLTD-Product-400_15.jpeg);
+    grid-area: ch;
+    background-size: cover;
+}
+
+header{
+    background-color: aqua;
+    grid-area: hd;
+}
+
+main{
+    background-color: crimson;
+    grid-area: mn;
+}
+
+footer{
+    background-color: khaki;
+    grid-area: ft;
+}
